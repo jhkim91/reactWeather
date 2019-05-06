@@ -17,6 +17,10 @@ export default class SearchBar extends Component {
   onFormSubmit(event) {
     //sumbit 이동을 막는다.
     event.preventDefault();
+
+    // We need to go and fetch weather data
+    // http://openweathermap.org/forecast5 or search : open weather map forecast api
+    // 특정한 도시의 향후 5일간 기후, 날씨 데이터를 사용하는 API, 사이트에 가입해서 api키를 발급받는걸 추천하지만, 기본으로 제공하는 key가있음.
   }
 
   render() {
